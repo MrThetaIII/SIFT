@@ -70,9 +70,9 @@ process_video(video_path, object_path, output_path)
 #### Video to Video Usage
 
 ```python
-video1_path = &#34;Rec-L.mp4&#34;
-video2_path = &#34;Rec-R.mp4&#34;
-output_path = &#34;stereo_output&#34;
+video1_path = "Rec-L.mp4"
+video2_path = "Rec-R.mp4"
+output_path = "stereo_output"
 process_stereo_video(video1_path, video2_path, output_path, use_gui=True)
 ```
 
