@@ -38,14 +38,14 @@ pip install opencv-python numpy moviepy ultralytics supervision torch tkinter
 #### Object to Object Usage
 
 ```python
-object_path = &#39;Object.jpg&#39;
-scene_path = &#39;Picture.jpg&#39;
+object_path = "Object.jpg"
+scene_path = "Picture.jpg"
 find_and_draw_object(object_path, scene_path)
 ```
 
 ### 2. SIFT Object-to-Video Tracking (`sift-o2v.ipynb`)
 
-- Tracks an object&#39;s presence in a video
+- Tracks an object"s presence in a video
 - Highlights object locations across video frames
 - Preserves original video audio
 - Supports multiple video codecs
@@ -53,9 +53,9 @@ find_and_draw_object(object_path, scene_path)
 #### Object to Video Usage
 
 ```python
-video_path = &#39;video-o.mp4&#39;
-object_path = &#39;VObject.jpg&#39;
-output_path = &#39;output_video.mp4&#39;
+video_path = "video-o.mp4"
+object_path = "VObject.jpg"
+output_path = "output_video.mp4"
 process_video(video_path, object_path, output_path)
 ```
 
@@ -70,9 +70,9 @@ process_video(video_path, object_path, output_path)
 #### Video to Video Usage
 
 ```python
-video1_path = &#34;Rec-L.mp4&#34;
-video2_path = &#34;Rec-R.mp4&#34;
-output_path = &#34;stereo_output&#34;
+video1_path = "Rec-L.mp4"
+video2_path = "Rec-R.mp4"
+output_path = "stereo_output"
 process_stereo_video(video1_path, video2_path, output_path, use_gui=True)
 ```
 
